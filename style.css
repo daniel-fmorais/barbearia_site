@@ -1,9 +1,14 @@
 body {
-    background-color: #CCCCCC;
+    background:whitesmoke;
 }
 
 #banner {
     width: 100%;
+}
+
+.apresentacao {
+    background: #CCCCCC ;
+    padding: 30px;
 }
 
 h1 {
@@ -22,9 +27,29 @@ em strong {
     color:#FF0000;
 } 
 
+.beneficios {
+    background: whitesmoke;
+    padding: 20px;
+}
+
+h2 {
+    text-align: center;
+}
+
+ul {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 15%;
+
+}
+
 .itens {
     font-style: italic;
     letter-spacing: 1.5pt;
-    line-height: 25pt;
+    line-height: 45pt;
     font-size: 18px;
 }
+#imgbeneficios {
+    width: 50%;
+}
+
