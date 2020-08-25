@@ -11,8 +11,8 @@ header {
 
 nav {
     position: absolute;
-    top: 110px;
-    right: 0;
+    top: 120px;
+    right: 20px;
 }
 
 nav li {
@@ -27,4 +27,41 @@ nav a {
     color: black;
     font-size: 25px;
     letter-spacing: 2px;
+}
+
+.produtos {
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+.produtos li {
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    box-sizing: border-box;
+    padding: 30px 20px;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+
+.produtos h2 {
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+}
+
+.produto-descricao {
+    text-align: center;
+    font-size: 18px;
+    font-style: italic;
+}
+
+.preco-produto {
+    text-align: center;
+    font-weight: bold;
+    font-size: 22px;
+    margin-top: 10px;
 }
