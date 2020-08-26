@@ -43,7 +43,7 @@ form {
     margin: 40px 0;
 }
 
-form label, form p {
+form label, form legend {
     display: block;
     font-size: 20px;
     margin: 0 0 10px;
@@ -58,6 +58,42 @@ form label, form p {
 
 .checkbox {
     margin: 30px 0;
+}
+
+fieldset {
+    margin: 30px 0;
+}
+
+.enviar {
+    width: 30%;
+    padding: 10px;
+    background: lightsalmon;
+    border-radius: 50px;
+    font-weight: bold;
+    font-size: 15px;
+    transition: 1s all;
+    cursor: pointer;
+}
+
+.enviar:hover {
+    background: darksalmon;
+    transform: scale(1.05);
+}
+
+table{
+    margin: 40px 0;
+}
+
+table thead{
+    font-weight: bold;
+    background: dimgray;
+    color: white;
+    letter-spacing: 2px;
+}
+
+table td, th {
+    border: 1px black solid;
+    padding: 10px;
 }
 
 footer {
