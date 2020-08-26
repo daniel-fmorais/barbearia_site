@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+    <head>
+        <meta charset="UTF-8">
+        <title>Contatos - Barbearia Alura</title>
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="contatos.css">
+    </head>
+
+    <body>
+        <header>
+            <div class="caixa-superior">
+                <h1><img src="imagens/logo.png"></h1>   
+
+                <nav>
+                    <ul>
+                        <li> <a href="index.html"> Home</a> </li>
+                        <li> <a href="produtos.html"> Produtos</a> </li>
+                        <li> <a href="contatos.html"> Contatos</a> </li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <main>
+            <form>
+                <div>
+                    <label for="nome-sobrenome">Nome e Sobrenome</label>
+                    <input type="text" id="nome-sobrenome" class="input-padrao"> 
+
+                    <label for="email">E-mail</label>
+                    <input type="text" id="email" class="input-padrao">
+
+                    <label for="telefone">Telefone</label>
+                    <input type="text" id="telefone" class="input-padrao">
+
+                    <label for="mensagem">Mensagem</label>
+                    <textarea cols="80" rows="10" id="mensagem" class="input-padrao"></textarea>
+                </div>
+                
+                <div>
+                    <p>Como prefere que entramos em contato?</p>
+
+                    <label for="radio-email"><input type="radio" value="email" id="radio-email" name="contato">  E-mail</label>
+                   
+                    <label for="radio-telefone"><input type="radio" value="telefone" id="radio-telefone" name="contato">  Telefone</label>
+                    
+                    <label for="radio-whatsapp"><input type="radio" value="whatsapp" id="radio-whatsapp" name="contato">  WhatsApp</label>
+                    
+                </div>
+                
+                <label class="checkbox"><input type="checkbox">  Gostaria de receber nossas novidades por E-mail?</label>
+
+                <input type="submit" value="Enviar Formulário">
+            </form>
+        </main>
+
+        <footer>
+            <img src="imagens/logo-branco.png">
+            <p class="copyright">&copy; Copyright Barberia Alura - 2020</p>
+        </footer>
+
+    </body>
+
+</html>
