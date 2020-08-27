@@ -1,5 +1,10 @@
 body {
-    background:whitesmoke;
+    font-family: 'Montaga', sans-serif;
+}
+
+header {
+    background: #BBBBBB;
+    padding: 20px 0;
 }
 
 .caixa-superior {
@@ -7,6 +12,7 @@ body {
 }  
 
 .logo-inicial {
+    margin-left: 15px;
     width: 10%;
     height: 10%;
 }
@@ -14,11 +20,11 @@ body {
 .titulo-principal {
     padding-left: 30px;
     font-weight: bold;
-    font-size: 35px;
+    font-size: 3em;
     letter-spacing: 1px;
     position: absolute;
     top: 45%;
-    left: 110px;
+    left: 145px;
     font-style: italic;
 }
 
@@ -49,37 +55,47 @@ nav a:hover {
     text-decoration: underline;
 }
 
-#banner {
+.banner {
     width: 100%;
 }
 
 .apresentacao {
-    background: #CCCCCC ;
+    width: 940px;
+    margin: 0 auto;
     padding: 30px;
 }
 
-.titulo-centralizado {
+.titulo-secundario {
     text-align: center;
     font-weight: bold;
-    font-size: 25px;
+    font-size: 30px;
     padding-bottom: 25px;
     letter-spacing: 1px;
+    clear: left;
 }
 
-p {
-    text-align: center;
+.utensilios {
+    width: 140px;
+    float: left;
+    margin-right: 30px;
+    margin-bottom: 10px;
 }
 
-#missao {
-    font-size: 20px;
-    font-style: italic;
+.apresentacao p {
+    margin: 0 0 1.5em;
+    padding: 0px 0;
+    font-size: 18px;
+    line-height: 150%;
+}
+
+.apresentacao strong {
     font-weight: bold;
-    margin: 10px;
 }
 
-em strong {
-    color:#FF0000;
-} 
+.apresentacao em {
+    font-style: italic;
+    font-size: 19px;
+}
 
 .beneficios {
     background: whitesmoke;
@@ -112,11 +128,27 @@ footer {
     background: url("imagens/bg.jpg");
     padding-top: 40px;
     padding-bottom: 10px;
-}
+    }
 
 .copyright {
     display: block;
     color: white;
     margin-top: 40px;
     font-size: 15px;    
+}
+
+.mapa {
+    padding: 3em 0;
+    width: 940px;
+    margin: 0 auto;
+}
+
+.mapa p {
+    margin: 0 0 2em;
+    text-align: center;
+}
+
+.video {
+    width: 560px;
+    margin: 2em auto;
 }
