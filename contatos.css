@@ -120,3 +120,58 @@ footer {
     margin-top: 40px;
     font-size: 15px;    
 }
+
+@media screen and (max-width: 480px) {
+
+    .caixa-superior, .produtos, .alinhamento-pagina, .enviar {
+        width: auto;
+    }
+
+    .produtos li {
+        width: 100%;
+        margin: 1% 0
+    }
+
+    .logo-inicial {
+        width: auto;
+        display:block;
+        margin: 0 auto;
+        padding-top: 5%;
+    }
+
+    nav a {
+        letter-spacing: 0;
+        font-size: 15px;
+    }
+
+    nav li:nth-child(1) {
+        position: absolute;
+        left: 0;
+        margin-left: 3%;
+    }
+
+    nav li:nth-child(2){
+        position: absolute;
+        left: 30%;
+    }
+
+    nav li:nth-child(3) {
+        position: absolute;
+        right: 0;
+        margin-right: 3%;
+    }
+
+    nav {
+        top: 0;
+        left: 0;
+        width: 100%;
+    }
+
+    main {
+        padding: 0 5%;
+    }
+
+    .input-padrao {
+        width: 95%;
+    }
+}
